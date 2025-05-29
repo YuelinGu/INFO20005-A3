@@ -7,73 +7,39 @@
   <link rel="stylesheet" href="ecommerce website.css" />
 </head>
 <body>
-  <header class="site-header">
-    <button class="menu-btn">☰</button>
-    <div class="header-icons">
-      <span>🔍</span>
-      <span>👤</span>
+  <header class="header">
+    <div class="top-bar">
+      <div class="icon">
+        <!-- Hamburger Icon SVG -->
+        <svg width="28" height="28" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100" height="8" fill="#5B2C06"/>
+          <rect y="30" width="100" height="8" fill="#5B2C06"/>
+          <rect y="60" width="100" height="8" fill="#5B2C06"/>
+        </svg>
+      </div>
+      <div class="icons-right">
+        <!-- Search Icon SVG -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5B2C06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <!-- Cart Icon SVG -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5B2C06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"/>
+          <circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero">
+      <img src="Coffee Beans.png" alt="Coffee Beans" class="hero-img" />
+      <div class="hero-text">
+        <h1>Welcome to <br><span>JavaJunkies.</span></h1>
+        <p>The best local brew.</p>
+        <button class="shop-btn">SHOP NOW</button>
+      </div>
     </div>
   </header>
-
-  <section class="hero">
-    <img src="coffee.jpg" alt="Coffee Beans" class="hero-img" />
-    <div class="hero-text">
-      <h1>Welcome to <br><span class="highlight">JavaJunkies</span>.</h1>
-      <p>The best local brew.</p>
-      <a href="#" class="button">Shop Now</a>
-    </div>
-  </section>
-
-  <section class="products">
-    <h2>JUST IN!</h2>
-    <p>Try our newest products.</p>
-    <div class="product-grid">
-      <div class="product-card">
-        <span class="badge">New</span>
-        <img src="product1.jpg" alt="Product One" />
-        <h3>Product One</h3>
-        <button class="buy-button">Buy now</button>
-      </div>
-      <div class="product-card">
-        <img src="product2.jpg" alt="Product Two" />
-        <h3>Product Two</h3>
-        <button class="buy-button">Buy now</button>
-      </div>
-      <div class="product-card">
-        <span class="badge">New</span>
-        <img src="product3.jpg" alt="Product Three" />
-        <h3>Product Three</h3>
-        <button class="buy-button">Buy now</button>
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews">
-    <h2>Customer Reviews</h2>
-    <p>View the realest comments on our products.</p>
-    <div class="review-grid">
-      <div class="review-card">
-        <img src="review1.jpg" alt="Reviewer 1" />
-        <h4>Name One</h4>
-        <p>This is the review they wrote.</p>
-      </div>
-      <div class="review-card">
-        <h4>Name Two</h4>
-        <p>This is the review they wrote.</p>
-      </div>
-      <div class="review-card">
-        <h4>Name Three</h4>
-        <p>This is the review they wrote.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-links">
-      <a href="#">FAQs</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Socials</a>
-    </div>
-  </footer>
 </body>
 </html>
